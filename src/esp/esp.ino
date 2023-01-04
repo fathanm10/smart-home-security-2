@@ -2,8 +2,8 @@
 #include <PubSubClient.h>
 
 // WiFi variables
-const char *ssid = "Ftn";
-const char *password = "supersecret";
+const char *ssid = "ssid";          // The WiFi SSID/name this ESP8266 should connect to
+const char *password = "password";  // The corresponding WiFi password for the SSID above
 const char *mqtt_username = "";
 const char *mqtt_password = "";
 

@@ -165,12 +165,12 @@ void taskKeypad(void *pvParameters) {
     } 
     else {  
       // Debug function to automatically unlock the door
-      if (key == 'A') {
-        locked = false;
-        myservo.attach(servoPin);
-        myservo.write(unlockedPos);
-      }
-      else if (key != NO_KEY) {
+      // if (key == 'A') {
+      //   locked = false;
+      //   myservo.attach(servoPin);
+      //   myservo.write(unlockedPos);
+      // }
+      if (key != NO_KEY) {
         // A key was pressed, add the key to the entered password as char
         enteredPassword += key;
 
